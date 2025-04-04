@@ -149,7 +149,7 @@ form button{
 {
     padding-right: 10px;
 }
-/****** Hebergements And Populaires ***********/
+/****** infobar ***********/
 .infobar{
     height: 24px;
     margin: 24px 0;
@@ -177,7 +177,48 @@ form button{
 .hebergements {
     width: 65%;
 }
-
+.hebergements h2{
+    font-weight: 700;
+    font-size: 22px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.grid-container>div{
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    border: 5px solid #ffff;
+    margin-bottom: 24px;
+}
+.info-card{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 8px;
+}
+.info-card h4{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+.info-card p{
+    margin: 8px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+.euro{
+    font-weight: 600;
+}
+.grid-container div img{
+    width: 250px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+}
+#afficher-plus{
+    font-size: 18px;
+    font-weight: 700;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
