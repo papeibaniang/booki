@@ -59,6 +59,22 @@ a {
     color: var(--main-bg-color)
 }
 
+footer{
+    background-color: #F2F2F2;
+    padding: 0px 20px;
+}
+.pied-de-page{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.pied-de-page h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+.pied-de-page a{
+    font-size: 16px;
+    font-weight: 400;
+}
 /****** En-tête ***********/
 .flex-container{
     display: flex;
@@ -261,6 +277,9 @@ form button{
     margin-bottom: 5px;
 }
 /****** Activites ***********/
+#section-activites{
+    margin: 30px 0px;
+}
 #section-activites img{
     width: 297.5px;
     height: 380px;
