@@ -150,6 +150,17 @@ form button{
     padding-right: 10px;
 }
 /****** Hebergements And Populaires ***********/
+.infobar{
+    height: 24px;
+    margin: 24px 0;
+}
+.infobar p{
+    margin: 0px 0px 0px 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
