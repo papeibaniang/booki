@@ -39,7 +39,7 @@ a {
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
+    /*padding: 5px;*/
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -177,10 +177,7 @@ form button{
 .hebergements {
     width: 65%;
 }
-.hebergements h2{
-    font-weight: 700;
-    font-size: 22px;
-}
+
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -263,9 +260,19 @@ form button{
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
-
-
+/****** Activites ***********/
+#section-activites img{
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+.activites > a{
+    padding: 12px;
+}
+.activites>a> div h3{
+    margin: 0;
+    padding: 20px 19px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
