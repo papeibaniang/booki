@@ -383,6 +383,8 @@ form button{
         display: block;
         padding-bottom: 12px;
         border-bottom: 3px solid #F2F2F2;
+        font-weight: 400;
+        font-size: 16px;
     }
     nav li a:hover{
         color: #0065FC;
