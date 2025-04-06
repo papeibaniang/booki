@@ -335,6 +335,19 @@ form button{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .filtre{
+        flex-wrap: wrap;
+    }
+    .filtre h3{
+        flex: 100%;
+    }
+    .filtre button{
+        flex: 20%;
+        padding: 0;
+        font-size: 16px;
+        margin-left: 0;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
