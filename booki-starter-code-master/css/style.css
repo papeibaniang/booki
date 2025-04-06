@@ -280,7 +280,7 @@ form button{
 /****** Activites ***********/
 #section-activites{
     margin: 30px 0px;
-    padding: 30px 0;
+    padding: 30px;
 }
 #section-activites img{
     width: 297.5px;
@@ -288,11 +288,18 @@ form button{
     border-radius: 20px 20px 0px 0px;
 }
 
-.activites>a> div h3{
+.activites h3{
     margin: 0;
     padding: 20px 19px;
 }
 
+.activites{
+    margin: 24px 0;
+}
+
+.activites a{
+    margin-right: 24px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
