@@ -200,7 +200,7 @@ form button{
     justify-content: space-between;
     margin-top: 12px;
 }
-.grid-container> a >div{
+.grid-container> a {
     background-color: #fff;
     border-radius: 20px 20px 20px 20px;
     border: 5px solid #ffff;
@@ -224,7 +224,7 @@ form button{
 .euro{
     font-weight: 600;
 }
-.grid-container div img{
+.grid-container img{
     width: 250px;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
@@ -280,15 +280,14 @@ form button{
 /****** Activites ***********/
 #section-activites{
     margin: 30px 0px;
+    padding: 30px 0;
 }
 #section-activites img{
     width: 297.5px;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
 }
-.activites > a{
-    padding: 12px;
-}
+
 .activites>a> div h3{
     margin: 0;
     padding: 20px 19px;
