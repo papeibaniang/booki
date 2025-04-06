@@ -360,4 +360,33 @@ form button{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    .main-container{
+        padding: 0;
+    }
+    .entete{
+        display: block;
+    }
+    .logo{
+        text-align: center;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+    nav li{
+        padding: 0;
+        flex: 50%;
+        text-align: center;
+    }
+    nav li a{
+        display: block;
+        padding-bottom: 12px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+    nav li a:hover{
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
 }
