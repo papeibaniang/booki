@@ -417,4 +417,9 @@ form button{
     form input{
         border-right: none;
     }
+
+    .filtre button{
+        flex: 45%;
+        margin: 10px 10px 10px 0px;
+    }
 }
