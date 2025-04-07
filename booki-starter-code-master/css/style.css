@@ -65,6 +65,7 @@ footer{
 .pied-de-page{
     display: grid;
     grid-template-columns: auto auto auto;
+    padding: 5px 30px;
 }
 .pied-de-page h4{
     font-weight: 700;
@@ -80,7 +81,6 @@ footer{
 }
 .entete{
     justify-content: space-between;
-    margin-bottom: 24px;
 }
 nav li {
     display:inline-block;
@@ -389,6 +389,7 @@ form button{
         display: flex;
         justify-content: space-around;
         padding: 0;
+        margin: 0;
     }
     nav li{
         padding: 0;
@@ -406,6 +407,9 @@ form button{
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
         border-top: none;
+    }
+    .titre-filtre{
+        padding: 30px;
     }
     #text-rechercher{
         display: none;
