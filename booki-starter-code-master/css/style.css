@@ -61,7 +61,6 @@ a {
 
 footer{
     background-color: #F2F2F2;
-    padding: 0px 20px;
 }
 .pied-de-page{
     display: grid;
@@ -378,7 +377,7 @@ form button{
         padding: 0;
     }
     body{
-        margin: 8px 0;
+        margin: 0;
     }
     .entete{
         display: block;
@@ -459,5 +458,9 @@ form button{
     }
     .activites img{
         width: 100%;
+    }
+    .pied-de-page{
+        grid-template-columns: 100%;
+        padding: 30px;
     }
 }
