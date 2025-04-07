@@ -179,7 +179,6 @@ form button{
 }
 /****** infobar ***********/
 .infobar{
-    height: 24px;
     margin: 24px 0;
 }
 .infobar p{
@@ -376,7 +375,10 @@ form button{
         padding: 0;
     }
     main{
-        padding: 0 20px;
+        padding: 0;
+    }
+    body{
+        margin: 8px 0;
     }
     .entete{
         display: block;
@@ -423,5 +425,29 @@ form button{
     .filtre button{
         flex: 45%;
         margin: 10px 10px 10px 0px;
+    }
+    .hebergements-and-populaires section{
+        border-radius: 0;
+    }
+    .populaires{
+        order: 1;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .populaires-cards{
+        flex-wrap: wrap;
+    }
+    .populaires-cards a{
+        width: 100%;
+    }
+    #section-herbergements{
+        order: 2;
+        background-color: #fff;
+    }
+    .grid-container{
+        grid-template-columns: 100%;
+    }
+    .grid-container a{
+        box-shadow: 0 3px 15px 0 #0000001A;
     }
 }
