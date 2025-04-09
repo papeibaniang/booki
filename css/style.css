@@ -184,6 +184,7 @@ form button{
 /****** infobar ***********/
 .infobar{
     margin: 24px 0;
+    align-items: center;
 }
 .infobar p{
     margin: 0px 0px 0px 10px;
