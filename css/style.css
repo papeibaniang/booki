@@ -306,7 +306,6 @@ form button{
 .activites h3{
     margin: 0;
     padding: 20px 19px;
-    height: 38px;
 }
 
 .activites{
@@ -370,9 +369,6 @@ form button{
     }
     .activites img{
         height: 200px;
-    }
-    .activites h3{
-        height: 60px;
     }
 }
 
